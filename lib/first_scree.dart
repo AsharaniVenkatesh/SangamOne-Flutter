@@ -24,7 +24,7 @@ class _MyApp2State extends State<MyApp2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('FirstScreen'),backgroundColor: Colors.purpleAccent,),
+      appBar: AppBar(title: Text('Assignment-1-Input'),backgroundColor: Colors.purpleAccent,),
 
       body: Container(
         child: Column(

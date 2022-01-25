@@ -26,15 +26,13 @@ class _MyAppState extends State<MyApp> {
       body: Container(
         child: Column(
           children: [
-            Text('Learning Flutter',style: TextStyle(fontSize: 20),),
-            SizedBox(height: 20,),
-            RaisedButton(onPressed: (){
+            TextButton(onPressed: (){
               Navigator.push(context, MaterialPageRoute(builder: (context)=>MyApp2()));
-            },child: Text('Assignment-1'),),
-            RaisedButton(onPressed: (){
+            },child: Text('Assignment-1',style: TextStyle(fontSize: 20),),),
+            TextButton(onPressed: (){
              // Navigator.push(context, MaterialPageRoute(builder: (context)=>MyApp()));
             },child: Text('Assignment-2'),),
-            RaisedButton(onPressed: (){
+            TextButton(onPressed: (){
              // Navigator.push(context, MaterialPageRoute(builder: (context)=>MyApp()));
             },child: Text('Assignment-3'),),
             RaisedButton(onPressed: (){
